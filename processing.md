@@ -19,7 +19,17 @@ Matheus de Camargo Marques
 
 
 ##  Frases e Fórmulas
-| FRASE                  | With                 
+| FRASE                | With                 
+| :------------------- | -------------------: |
+| left-aligned column  | right-aligned column | 
+
+
+| Fórmula                | With                 
+| :------------------- | -------------------: |
+| left-aligned column  | right-aligned column | 
+
+
+| Definição de preidcados/Funções                  | With                 
 | :------------------- | -------------------: |
 | left-aligned column  | right-aligned column | 
 | $100                 | $100                 |
