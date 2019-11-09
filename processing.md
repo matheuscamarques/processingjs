@@ -1,6 +1,12 @@
 # Processing JS
 
 Matheus de Camargo Marques
+
+Trabalho de Representação de Conhecimento em Lógica de Predicados. 
+Disciplina: Introdução a Logica para Computação (CSD020).
+Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
+
+
 ## This is heading 2
 ### This is heading 3
 #### This is heading 4
