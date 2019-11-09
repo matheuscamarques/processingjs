@@ -12,6 +12,9 @@ Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica d
 
 **Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .**
 
+___________________________________
+Matheus de Camargo Marques
+
 
 ## This is heading 2
 ### This is heading 3
