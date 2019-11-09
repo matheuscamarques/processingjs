@@ -1,10 +1,16 @@
 # <center>Processing JS</center>
 
+
+
 Matheus de Camargo Marques
 
 Trabalho de Representação de Conhecimento em Lógica de Predicados. 
 Disciplina: Introdução a Logica para Computação (CSD020).
 Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
+
+Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
+
+**Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .**
 
 
 ## This is heading 2
