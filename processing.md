@@ -16,9 +16,16 @@ ___________________________________
 Matheus de Camargo Marques
 
 
-## This is heading 2
-### This is heading 3
-#### This is heading 4
+
+
+##  Frases e Fórmulas
+| Fun                  | With                 | Tables          |
+| :------------------- | -------------------: |:---------------:|
+| left-aligned column  | right-aligned column | centered column |
+| $100                 | $100                 | $100            |
+| $10                  | $10                  | $10             |
+| $1                   | $1                   | $1              |
+
 
 This text is **bold**.
 This text is *italic*.
