@@ -19,12 +19,12 @@ Matheus de Camargo Marques
 
 
 ##  Frases e Fórmulas
-| Fun                  | With                 | Tables          |
-| :------------------- | -------------------: |:---------------:|
-| left-aligned column  | right-aligned column | centered column |
-| $100                 | $100                 | $100            |
-| $10                  | $10                  | $10             |
-| $1                   | $1                   | $1              |
+| FRASE                  | With                 
+| :------------------- | -------------------: |
+| left-aligned column  | right-aligned column | 
+| $100                 | $100                 |
+| $10                  | $10                  | 
+| $1                   | $1                   | 
 
 
 This text is **bold**.
