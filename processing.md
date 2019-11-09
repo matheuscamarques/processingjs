@@ -22,9 +22,7 @@ Matheus de Camargo Marques
 | FRASE                | Matrizes é um conceito em Javascript                 
 | :------------------- | -------------------: |
 | Fórmula                | With                 
-| :------------------- | -------------------: |
 | Definição de preidcados/Funções                  | With                 
-| :------------------- | -------------------: |
 
 
 
