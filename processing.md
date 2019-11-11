@@ -27,12 +27,28 @@ Matheus de Camargo Marques
 | :------------------- | -------------------: |
 | Fórmula                | Conceito("Matrizes,Javascript")                
 | Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.      
+    
 
-| Frase                             |   |   |
-|-----------------------------------|---|---|
-| Fórmula                           |   |   |
-| Definições de predicados/funç ões |   |   |
-|                                   |   |   |
+
+| FRASE                | Processing é uma linguagem de Programação                 
+| :------------------- | -------------------: |
+| Fórmula                | Linguagem("Processing,Programação")                
+| Definição de preidcados/Funções                  | Linguagem(X,Y): X é uma linguagem de Y.     
+
+
+
+| FRASE                | Javascript possui Processing              
+| :------------------- | -------------------: |
+| Fórmula                | Possui("Javascript,Processing")                
+| Definição de preidcados/Funções                  | Possui(X,Y): X possui Y.     
+
+
+| FRASE                | Matrizes é um conceito em Javascript                 
+| :------------------- | -------------------: |
+| Fórmula                | Conceito("Matrizes,Javascript")                
+| Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.     
+
+
 
 
 
