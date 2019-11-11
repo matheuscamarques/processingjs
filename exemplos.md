@@ -1,9 +1,10 @@
-[ColideBall]:https://engcomp2088932.000webhostapp.com/colisoes/index.html
+[ColideBall]: https://engcomp2088932.000webhostapp.com/colisoes/index.html
 
-[Plano Cartesiano]:https://engcomp2088932.000webhostapp.com/Plano - Cartesiano/canvas.html
+[Plano Cartesiano]: https://engcomp2088932.000webhostapp.com/Plano-Cartesiano/canvas.html
 
-[CoordenadasPolares]:https://engcomp2088932.000webhostapp.com/Coordenadas-Polares/empty-example/index.php
+[CoordenadasPolares]: https://engcomp2088932.000webhostapp.com/Coordenadas-Polares/empty-example/index.php
 
-[Projeção da Luz]:https://engcomp2088932.000webhostapp.com/ProjectLux/projlux/index.html
+[Projeção da Luz]: https://engcomp2088932.000webhostapp.com/ProjectLux/projlux/index.html
 
 PS:
+[link text itself]: http://www.reddit.com
