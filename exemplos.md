@@ -6,5 +6,4 @@
 
 [Projeção da Luz]: https://engcomp2088932.000webhostapp.com/ProjectLux/projlux/index.html
 
-PS:
-[link text itself]: http://www.reddit.com
+
