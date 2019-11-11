@@ -5,7 +5,7 @@
 Matheus de Camargo Marques
 
 Trabalho de Representação de Conhecimento em Lógica de Predicados. 
-Disciplina: Introdução a Logica para Computação (CSD020).
+Disciplina: Introdução a Lógica para Computação (CSD020).
 Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
 
 Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
