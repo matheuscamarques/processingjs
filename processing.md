@@ -36,21 +36,21 @@ Matheus de Camargo Marques
 | FRASE                | Matrizes é um conceito em Javascript                 
 | :------------------- | -------------------: |
 | Fórmula                | Conceito("Matrizes,Javascript")                
-| Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.      
+| Definição de predicados/Funções                  | Conceito(X,Y): X é um conceito em Y.      
     
 
 
 | FRASE                | Processing é uma linguagem de Programação                 
 | :------------------- | -------------------: |
 | Fórmula                | Linguagem("Processing,Programação")                
-| Definição de preidcados/Funções                  | Linguagem(X,Y): X é uma linguagem de Y.     
+| Definição de predicados/Funções                  | Linguagem(X,Y): X é uma linguagem de Y.     
 
 
 
 | FRASE                | Javascript possui Processing              
 | :------------------- | -------------------: |
 | Fórmula                | Possui("Javascript,Processing")                
-| Definição de preidcados/Funções                  | Possui(X,Y): X possui Y.     
+| Definição de predicados/Funções                  | Possui(X,Y): X possui Y.     
     
 
 
@@ -61,7 +61,7 @@ Matheus de Camargo Marques
 | FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
 | Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.    
+| Definição de predicados/Funções                  | Conceito(X,Y): X é um conceito em Y.    
 
 
 
