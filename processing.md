@@ -24,6 +24,13 @@ Matheus de Camargo Marques
 
 ##  Frases e Fórmulas
 
+##  Objetos
+| FRASE                | ProcessingJS é uma bliblioteca gráfica                
+| :------------------- | -------------------: |
+| Fórmula                | Biblioteca_Grafica("ProcessingJS")                
+| Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
+
+
 
 ##  Relação entre Objetos
 | FRASE                | Matrizes é um conceito em Javascript                 
@@ -44,12 +51,18 @@ Matheus de Camargo Marques
 | :------------------- | -------------------: |
 | Fórmula                | Possui("Javascript,Processing")                
 | Definição de preidcados/Funções                  | Possui(X,Y): X possui Y.     
+    
 
 
-| FRASE                | Matrizes é um conceito em Javascript                 
+
+
+
+##  Negações
+| FRASE                | Structs é um conceito em Javascript                 
 | :------------------- | -------------------: |
 | Fórmula                | Conceito("Matrizes,Javascript")                
-| Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.     
+| Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.    
+
 
 
 
