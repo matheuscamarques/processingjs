@@ -58,9 +58,9 @@ Matheus de Camargo Marques
 
 
 ##  Negações
-| FRASE                | Structs é um conceito em Javascript                 
+| FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
-| Fórmula                | Conceito("Matrizes,Javascript")                
+| Fórmula                | ¬Conceito("Matrizes,Javascript")                
 | Definição de preidcados/Funções                  | Conceito(X,Y): X é um conceito em Y.    
 
 
