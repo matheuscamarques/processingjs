@@ -53,6 +53,10 @@ Processing (sin el ".js") é uma linguagem para realizar trabalho gráfico, tant
 **Como dissemos, Processing.js é uma linguagem de programação de alto nível, com suas próprias instruções e comandos, no entanto, se pode utilizar sem que o navegador necessite ter instalado qualquer plug-in, como poderia ser Flash ou Java. Para isso, Processing.js dispõe de um intérprete que converte as instruções dessa linguagem em Javascript, compatível com todos os navegadores que também suportam o elemento canvas e outras características do HTML5. 
 **
 
+**O Processing também pode ser utilizado com facilidade para desenvolver aplicativos para dispositivos móveis com o sistema operacional Android. Para desenvolvimento no Android, podem ser utilizadas a IDE Eclipse e uma biblioteca denominada Processing.core. Disponível pela Processing.org, ela é adicionada às bibliotecas do projeto e funciona como um motor de jogo, com o objetivo de interpretar algumas funções pré-prontas nativas do Processing.
+
+**Percebe-se que são inúmeras as formas de aplicação do Processing, a quantidade de material e exemplos para estudos no próprio site dos criadores é uma das vantagens de utilizar a linguagem. Desde os primeiros passos à programação, é possível ver resultados que de certa forma animam o desenvolvedor a “soltar” sua criatividade – por mais que a linguagem seja simples, permite que o artista, o programador e o estudante criem projetos complexos. **
+
 ___________________________________
 Matheus de Camargo Marques
 
