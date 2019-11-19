@@ -11,13 +11,10 @@ Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
 Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
 
 
-# *** fixme
+** Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .
 
 
-**Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .
-
-
-**O processing é uma linguagem de ambiente / programação destinada a tornar aplicativos visuais e interativos extremamente fáceis de escrever. Ele pode ser usado para tudo, desde ensinar as crianças a codificar até visualizar dados científicos.
+** O processing é uma linguagem de ambiente / programação destinada a tornar aplicativos visuais e interativos extremamente fáceis de escrever. Ele pode ser usado para tudo, desde ensinar as crianças a codificar até visualizar dados científicos.
 
 
 **Processing.js é uma biblioteca JavaScript que visa tornar a codificação acessível para artistas, designers, educadores e iniciantes e reinterpretar isso para a web atual 
