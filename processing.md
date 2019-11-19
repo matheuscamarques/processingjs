@@ -2,12 +2,12 @@
 
 
  Autores:
-1. Matheus de Camargo Marques.
-2. Alexandre Magno Stukoski
+1. [Matheus de Camargo Marques.](https://github.com/matheuscamarques)
+2. [Alexandre Magno Stukoski.]()
 
 Trabalho de Representação de Conhecimento em Lógica de Predicados. 
 Disciplina: Introdução a Lógica para Computação (CSD020).
-Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
+Professor: [Adolfo Gustavo Serra Seca Neto](https://github.com/adolfont) (DAINF - UTFPR Curitiba).
 
 Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
 
