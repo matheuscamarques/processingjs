@@ -24,17 +24,7 @@ Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica d
 
 Aqui estão alguns sites que oferecem suporte ao Processing.js:
 
-   CodePen
-    
-   OpenProcessing
-    
-   Sketchpad
-    
-   sketchPatch
-    
-   Game Jolt
-    
-   itch.io
+   [CodePen](https://codepen.io/tag/processing/) [OpenProcessinG](https://www.openprocessing.org/) [Sketchpad](http://sketchpad.cc/) [sketchPatch](http://www.sketchpatch.net/) [Game Jolt](https://gamejolt.com/) [itch.io](https://itch.io/games/tag-processing)
 
    
    De onde vem Processing.js
