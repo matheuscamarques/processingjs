@@ -10,7 +10,7 @@ Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
 
 Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
 
-# 1 Introdução
+# 1. Introdução
    Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .
  O processing é uma linguagem de ambiente / programação destinada a tornar aplicativos visuais e interativos extremamente fáceis de escrever. Ele pode ser usado para tudo, desde ensinar as crianças a codificar até visualizar dados científicos.
 Processing.js é uma biblioteca JavaScript que visa tornar a codificação acessível para artistas, designers, educadores e iniciantes e reinterpretar isso para a web atual 
@@ -38,7 +38,7 @@ Matheus de Camargo Marques
 
 
 
-##  2 Frases e Fórmulas
+#  2. Frases e Fórmulas
 
 ##  2.1 Propriedades de "Objetos"
 
@@ -183,7 +183,7 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ¬Conceito("Matrizes,Javascript")                
 | Definição de predicados/Funções  
 
-## 3 Assinaturas
+# 3 Assinaturas
 OBS: 
 Constantes: 6
 Variáveis: 3
@@ -192,7 +192,7 @@ Predicados de aridade 2 ou superior: 2
 Funções de aridade 1: 2
 Funções de aridade 2 ou superior: 1
 
-## 4 Modelos
+# 4 Modelos
 OBS: Valores no universo de valores concretos: mínimo de 10
 
 ## 4.1 Exemplos que satisfazem todas as Fórmulas
