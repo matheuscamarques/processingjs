@@ -2,7 +2,9 @@
 
 
 Autores:
+
 Matheus de Camargo Marques
+
 Alexandre Magno Stukoski
 
 Trabalho de Representação de Conhecimento em Lógica de Predicados. 
