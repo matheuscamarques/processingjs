@@ -50,15 +50,15 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 | Fórmula                | Biblioteca_Grafica("ProcessingJS")                
 | Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
 
-| FRASE                | ProcessingJS é uma bliblioteca gráfica                
+| FRASE                | Processing é um projeto.              
 | :------------------- | -------------------: |
-| Fórmula                | Biblioteca_Grafica("ProcessingJS")                
-| Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
+| Fórmula                | Projeto("Processing")                
+| Definição de preidcados/Funções                  | Projeto(X): X é um projeto.  
 
-| FRASE                | ProcessingJS é uma bliblioteca gráfica                
+| FRASE                | Matheus é um desenvolvedor.                
 | :------------------- | -------------------: |
-| Fórmula                | Biblioteca_Grafica("ProcessingJS")                
-| Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
+| Fórmula                | Desenvolvedor("Matheus")                
+| Definição de preidcados/Funções                  | Desenvolvedor(X): X é uma desenvolvedor.  
 
 
 
@@ -73,7 +73,7 @@ OBS: Relações entre “objetos”: 3, cada uma com um predicado diferente. Os 
     
 
 
-| FRASE                | Processing é uma linguagem de Programação                 
+| FRASE                | Javascript é uma linguagem de Programação                 
 | :------------------- | -------------------: |
 | Fórmula                | Linguagem("Processing,Programação")                
 | Definição de predicados/Funções                  | Linguagem(X,Y): X é uma linguagem de Y.     
