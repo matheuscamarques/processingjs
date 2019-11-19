@@ -11,34 +11,34 @@ Professor: Adolfo Gustavo Serra Seca Neto (DAINF - UTFPR Curitiba).
 Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica de predicados.
 
 
-     Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .
+   Processing.js é uma porta JavaScript do Processing , uma linguagem de programação projetada para gravar visualizações, imagens e conteúdo interativo. Ele permite que os navegadores exibam animações, aplicativos visuais, jogos e outros conteúdos gráficos ricos, sem a necessidade de um applet Java ou plug-in Flash .
 
 
-     O processing é uma linguagem de ambiente / programação destinada a tornar aplicativos visuais e interativos extremamente fáceis de escrever. Ele pode ser usado para tudo, desde ensinar as crianças a codificar até visualizar dados científicos.
+   O processing é uma linguagem de ambiente / programação destinada a tornar aplicativos visuais e interativos extremamente fáceis de escrever. Ele pode ser usado para tudo, desde ensinar as crianças a codificar até visualizar dados científicos.
 
 
-    Processing.js é uma biblioteca JavaScript que visa tornar a codificação acessível para artistas, designers, educadores e iniciantes e reinterpretar isso para a web atual 
+   Processing.js é uma biblioteca JavaScript que visa tornar a codificação acessível para artistas, designers, educadores e iniciantes e reinterpretar isso para a web atual 
 
-    O Processing.js é um projeto jovem e ambicioso que visa levar a programação visual para as massas de uma maneira mais acessível do que o Processing era até agora. Embora atualmente esteja sendo forçado a ser menosprezado em termos de recursos, a equipe está trabalhando duro para portar o restante da linguagem de processamento para esse equivalente do Java.
+   O Processing.js é um projeto jovem e ambicioso que visa levar a programação visual para as massas de uma maneira mais acessível do que o Processing era até agora. Embora atualmente esteja sendo forçado a ser menosprezado em termos de recursos, a equipe está trabalhando duro para portar o restante da linguagem de processamento para esse equivalente do Java.
 
 
 Aqui estão alguns sites que oferecem suporte ao Processing.js:
 
-    CodePen
+   CodePen
     
-    OpenProcessing
+   OpenProcessing
     
-    Sketchpad
+   Sketchpad
     
-    sketchPatch
+   sketchPatch
     
-    Game Jolt
+   Game Jolt
     
-    itch.io
+   itch.io
 
    
-    De onde vem Processing.js
-    Processing (sin el ".js") é uma linguagem para realizar trabalho gráfico, tanto em 2D como em 3D. Trata-se de uma linguagem de código aberto com o qual os programadores podem criar imagens, animação e interação por meio de uma série de funções de alto nível que permitem fazer grande variedade de desenhos, aos que se podem atribuir, inclusive, movimentos e responder às ações do usuário.
+   De onde vem Processing.js
+   Processing (sin el ".js") é uma linguagem para realizar trabalho gráfico, tanto em 2D como em 3D. Trata-se de uma linguagem de código aberto com o qual os programadores podem criar imagens, animação e interação por meio de uma série de funções de alto nível que permitem fazer grande variedade de desenhos, aos que se podem atribuir, inclusive, movimentos e responder às ações do usuário.
 
 Dado o seu caráter aberto, à volta de Processing também existe uma comunidade que continuamente melhora a linguagem e o estende com novas bibliotecas, dando suporte a elementos como o áudio, redes ou visualização de dados. Com isso, Processing é uma ferramenta que serve para muitos âmbitos das artes visuais.
 
