@@ -44,7 +44,7 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 
 | FRASE                | ProcessingJS é uma bliblioteca gráfica                
 | :------------------- | -------------------: |
-| Fórmula                | Biblioteca_Grafica("ProcessingJS")                
+| Fórmula                | Biblioteca-Grafica("ProcessingJS")                
 | Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
 
 | FRASE                | Processing é um projeto.              
