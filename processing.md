@@ -24,7 +24,15 @@ Este trabalho apresenta alguns conhecimentos em Processing JS e uso de lógica d
 
 Aqui estão alguns sites que oferecem suporte ao Processing.js:
 
-   [CodePen](https://codepen.io/tag/processing/) [OpenProcessinG](https://www.openprocessing.org/) [Sketchpad](http://sketchpad.cc/) [sketchPatch](http://www.sketchpatch.net/) [Game Jolt](https://gamejolt.com/) [itch.io](https://itch.io/games/tag-processing)
+   [CodePen](https://codepen.io/tag/processing/) - O CodePen é uma comunidade online para testar e mostrar trechos de código HTML , CSS e JavaScript criados pelo usuário . Ele funciona como um editor de código on-line e um ambiente de aprendizado de código aberto , onde os desenvolvedores podem criar trechos de código, chamados "canetas", e testá-los.
+   
+   [OpenProcessinG](https://www.openprocessing.org/) - O OpenProcessing usa alguns componentes licenciados e de código aberto, listados abaixo. O principal crédito e agradecimento vão para Processing.org , por criar a linguagem de programação que permite que muitos designers, artistas e pessoas curiosas de todo o mundo aprendam, criem e experimentem o design algorítmico.
+   
+   [Sketchpad](http://sketchpad.cc/) - Sketchpad foi um editor gráfico desenvolvido por Ivan Sutherland, no MIT, em 1963, durante o seu curso de doutorado (PhD). Por vários motivos é um marco na Informática, sendo o primeiro editor gráfico orientado a objetos (no sentido que conhecemos o termo, atualmente). Não apenas era possível colocar bits coloridos no canvas (cavalete), mas criar objetos que poderiam ser manipulados distintamente dos outros. 
+   
+   [Game Jolt](https://gamejolt.com/) - Plataforma de publicação e mercado para videogames.
+   
+   [itch.io](https://itch.io/games/tag-processing) - itch.io é um site para usuários hospedarem, venderem e baixarem jogos eletrônicos indies. Lançado em março de 2013 por Leaf Corcoran, o serviço possui quase 40 mil jogos e itens desde julho de 2016.
 
    
    De onde vem Processing.js
