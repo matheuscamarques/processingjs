@@ -1,8 +1,9 @@
 # <center>Processing JS</center>
 
 
-
+Autores:
 Matheus de Camargo Marques
+Alexandre Magno Stukoski
 
 Trabalho de Representação de Conhecimento em Lógica de Predicados. 
 Disciplina: Introdução a Lógica para Computação (CSD020).
