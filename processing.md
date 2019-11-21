@@ -122,23 +122,23 @@ OBS: Disjunções: 2
 | Fórmula                | Musico("Alexandre") V Programador("Alexandre")                
 | Definição de predicados/Funções  | Musico(X): X é musico. Programador(X): X é programador.
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Matheus estuda ou trabalha.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | Estuda("Matheus") V Trabalha("Matheus")              
+| Definição de predicados/Funções  | Estuda(X): X estuda. Trabalha(X): X trabalha. 
 
 
 ##  2.6 Implicações
 OBS:Implicações: 2
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Se Matheus programa então Alexandre revisa o código.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | Programa("Matheus") -> Revisa("Alexandre","código")               
+| Definição de predicados/Funções   | Programa(X): X programa. Revisa(X,Y): X revisa o Y.
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Se Matheus e Alexantre terminam o projeto então eles recebem uma bonificação.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
+| Fórmula                | Desenvolvedor("Matheus") ^ Programador("Alexandre") ......... FIXX ME                 
 | Definição de predicados/Funções  
 
 ##  2.7 Generalizações Universais
