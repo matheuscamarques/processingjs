@@ -103,24 +103,24 @@ OBS: Negações: 2
 ##  2.4 Conjunções
 OBS: Conjunções: 2
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Matheus é um programador e conhece Alexandre                
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | Programador("Matheus") ^ Conhece("Matheus,Alexandres")                
+| Definição de predicados/Funções  | Conhece(X,Y): X conhece Y.
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Alexandre aprendeu C e Alexandre aprendeu Javascript               
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | Aprendeu("Alexandre","X") ^ Aprendeu("Alexandre","Javascript")                
+| Definição de predicados/Funções  |Aprendeu(X,Y): x aprendeu Y.
 
 
 ##  2.5 Disjunções
 OBS: Disjunções: 2
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Alexandre é musico ou programador.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | Musico("Alexandre") V Programador("Alexandre")                
+| Definição de predicados/Funções  | Musico(X): X é musico. Programador(X): X é programador.
 
 | FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
