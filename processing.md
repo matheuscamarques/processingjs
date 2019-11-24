@@ -31,7 +31,7 @@ Aqui estão alguns sites que oferecem suporte ao Processing.js:
 ___________________________________
  Autores:
 1. [Matheus de Camargo Marques.](https://github.com/matheuscamarques)
-2. [Alexandre Magno Stukoski.]()
+2. [Alexandre Magno Stukoski.](https://github.com/Alex-Strukoski)
 
 
 
