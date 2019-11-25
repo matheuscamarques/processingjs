@@ -136,22 +136,22 @@ OBS:Implicações: 2
 | Fórmula                | Programa("Matheus") -> Revisa("Alexandre","código")               
 | Definição de predicados/Funções   | Programa(X): X programa. Revisa(X,Y): X revisa o Y.
 
-| FRASE                | Se Matheus e Alexantre terminam o projeto então eles recebem uma bonificação.                 
+| FRASE                | Se o programa foi escrito em Javascript então ele não funciona em Java.                 
 | :------------------- | -------------------: |
-| Fórmula                | Desenvolvedor("Matheus") ^ Programador("Alexandre") ......... FIXX ME                 
-| Definição de predicados/Funções  
+| Fórmula                |       Escrito("programa","Javascript") -> ¬Funciona("programa","Java")           
+| Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(x,y): x funciona em y.
 
 ##  2.7 Generalizações Universais
 OBS: Generalizações Universais: 3
 Ao menos duas fórmulas devem incluir ao menos 2 predicados com aridade superior a um.
 Ao menos duas fórmulas devem incluir ao menos uma função.
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Todo programador é lógico.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | ∀x(Programador(x)→Logico(x))                
+| Definição de predicados/Funções  | Logico(X): X é lógico. 
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                |                 
 | :------------------- | -------------------: |
 | Fórmula                | ¬Conceito("Matrizes,Javascript")                
 | Definição de predicados/Funções  
