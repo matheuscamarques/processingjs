@@ -151,15 +151,16 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ∀x(Programador(x)→Logico(x))                
 | Definição de predicados/Funções  | Logico(X): X é lógico. 
 
-| FRASE                |                 
-| :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Todo programa é um algoritmo.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
+| Fórmula                | ∀x(Programa(x)→Algoritmo(x).                 
+| Definição de predicados/Funções  | Algoritmo(X): X é um algoritmo.
+
+| FRASE                |  Todo processamento é trabalhoso.                
+| :------------------- | -------------------: |
+| Fórmula                | ∀x(Processamento(x)→Trabalhoso(x).                 
+| Definição de predicados/Funções  | Processamento(X): X é processamento. Trabalhoso(X): X é trabalhoso.
 
 ##  2.8 Generalizações Existenciais
 OBS: Generalizações Existenciais: 3
@@ -168,7 +169,7 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
+| Fórmula                | ∃x(Manipulado(x) = Moriart(x))                
 | Definição de predicados/Funções  
 
 | FRASE                | Structs não é um conceito em Javascript                 
