@@ -157,9 +157,9 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ∀x(Programa(x)→Algoritmo(x).                 
 | Definição de predicados/Funções  | Algoritmo(X): X é um algoritmo.
 
-| FRASE                |  Todo processamento é trabalhoso.                
+| FRASE                |  Todo processamento é trabalhoso e lógico.                
 | :------------------- | -------------------: |
-| Fórmula                | ∀x(Processamento(x)→Trabalhoso(x).                 
+| Fórmula                | ∀x(Processamento(x)→Trabalhoso(x)^Logico(x).                 
 | Definição de predicados/Funções  | Processamento(X): X é processamento. Trabalhoso(X): X é trabalhoso.
 
 ##  2.8 Generalizações Existenciais
@@ -172,15 +172,7 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ∃x(Manipulado(x) = Moriart(x))                
 | Definição de predicados/Funções  
 
-| FRASE                | Structs não é um conceito em Javascript                 
-| :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
 
-| FRASE                | Structs não é um conceito em Javascript                 
-| :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
-| Definição de predicados/Funções  
 
 # 3 Assinaturas
 OBS: 
