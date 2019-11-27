@@ -105,7 +105,7 @@ OBS: Conjunções: 2
 
 | FRASE                | Matheus é um programador e conhece Alexandre                
 | :------------------- | -------------------: |
-| Fórmula                | Programador("Matheus") ^ Conhece("Matheus,Alexandres")                
+| Fórmula                | Programador("Matheus") ^ Conhece("Matheus,Alexandre")                
 | Definição de predicados/Funções  | Conhece(X,Y): X conhece Y.
 
 | FRASE                | Alexandre aprendeu C e Alexandre aprendeu Javascript               
@@ -190,7 +190,7 @@ R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Tra
 
 R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
 
-C={}
+C={"ProcessingJS","Processing","Matheus","Matrizes","Javascript","Programação","Alexandre","código","programa","Java"}
 
 F1={}
 
