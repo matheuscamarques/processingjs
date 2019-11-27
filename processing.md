@@ -187,10 +187,15 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 Σ=[R1,R2,C,F1,F2,V]
 
 R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Trabalha, Programa, Logico, Algoritmo, Processamento, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
+
 R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
+
 C={}
+
 F1={}
+
 F2={}
+
 v={}
 
 OBS: 
