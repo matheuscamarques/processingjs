@@ -177,6 +177,12 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ∃x(Aplicação(X)) = Ciencia("Processing"))                
 | Definição de predicados/Funções | Aplicação(x): é uma aplicação. Ciencia(X): X na Ciência.
 
+| FRASE                | Existe ao menos alguém estudando Processing.       
+| :------------------- | -------------------: |
+| Fórmula                | ∃x(Alguem(x) = Estudando("Processing"))                
+| Definição de predicados/Funções | Alguem(x): x é um alguém. Estudando(x):  estudando x.
+
+
 # 3 Assinaturas
 Σ=[R1,R2,C,F1,F2,V]
 
