@@ -167,12 +167,15 @@ OBS: Generalizações Existenciais: 3
 Ao menos duas fórmulas devem incluir ao menos 2 predicados com aridade superior a um.
 Ao menos duas fórmulas devem incluir ao menos uma função.
 
-| FRASE                | Existe ao menos um Shape em Processing       
+| FRASE                | Existe ao menos um Shape em Processing.       
 | :------------------- | -------------------: |
 | Fórmula                | ∃x(Shape(x) = Processing(x))                
 | Definição de predicados/Funções | Shape(x): X é um Shape. Processing(x): É processing 
 
-
+| FRASE                | Existe ao menos uma aplicação de Processing na Ciência.       
+| :------------------- | -------------------: |
+| Fórmula                | ∃x(Aplicação(X)) = Ciencia("Processing"))                
+| Definição de predicados/Funções | Aplicação(x): é uma aplicação. Ciencia(X): X na Ciência.
 
 # 3 Assinaturas
 OBS: 
@@ -182,6 +185,8 @@ Predicados de aridade 1: 3
 Predicados de aridade 2 ou superior: 2
 Funções de aridade 1: 2
 Funções de aridade 2 ou superior: 1
+
+
 
 # 4 Modelos
 OBS: Valores no universo de valores concretos: mínimo de 10
