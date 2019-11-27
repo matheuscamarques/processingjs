@@ -167,10 +167,10 @@ OBS: Generalizações Existenciais: 3
 Ao menos duas fórmulas devem incluir ao menos 2 predicados com aridade superior a um.
 Ao menos duas fórmulas devem incluir ao menos uma função.
 
-| FRASE                | Structs não é um conceito em Javascript                 
+| FRASE                | Existe ao menos um Shape em Processing       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Manipulado(x) = Moriart(x))                
-| Definição de predicados/Funções  
+| Fórmula                | ∃x(Shape(x) = Processing(x))                
+| Definição de predicados/Funções | Shape(x): X é um Shape. Processing(x): É processing 
 
 
 
