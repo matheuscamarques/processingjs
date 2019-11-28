@@ -387,4 +387,6 @@ Aplicação<sup>M&#x2082;</sup> = { }
 Ciência<sup>M&#x2082;</sup> = { }
 
 
+# 5. Conclusão
 
+   Após o desenvolvimento desse trabalho obtemos um melhor entendimento do tema as quais quando iniciamos os estudos eram poucos evidentes, a ajuda de lógica de predicados no uso de representação de conhecimento contribuiu na conclusão e  o Processing é uma iniciativa de código aberto e o que move esse projeto é o interesse de trazer a programação de uma forma mais divertida , criativa e visual, e o Processing traz essas ferramentas de forma simplificada.
