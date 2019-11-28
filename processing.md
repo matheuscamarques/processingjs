@@ -79,8 +79,24 @@ OBS: Relações entre “objetos”: 3, cada uma com um predicado diferente. Os 
 
 | FRASE                | Javascript possui Processing              
 | :------------------- | -------------------: |
-| Fórmula                | Possui("Javascript,Processing")                
-| Definição de predicados/Funções                  | Possui(X,Y): X possui Y.     
+| Fórmula                | Possui("Javascript") = Processing               
+| Definição de predicados/Funções                  | Possui(X): retorna quem possui x   
+
+| FRASE                | Alexandre gosta de Processing              
+| :------------------- | -------------------: |
+| Fórmula                | Gosta("Alexandre") = Processing               
+| Definição de predicados/Funções                  | Gosta(X): retorna quem X gosta   
+
+
+| FRASE                | Casey Reas e Ben Fry donos do Projeto Processing              
+| :------------------- | -------------------: |
+| Fórmula                | Donos("Casey Reas","Benjamin Fry") = Projeto Processing             
+| Definição de predicados/Funções                  | Donos(X,Y):retorna projeto que X e Y são donos.  
+
+| FRASE                | Lauren McCarthy ajuda Casey Reas e Ben Fry.             
+| :------------------- | -------------------: |
+| Fórmula                | Ajuda("Lauren McCarthy","Casey Reas","Ben Fry")          
+| Definição de predicados/Funções                  | Ajuda(X,Y,Z): X ajuda Y e Z  
     
 
 
@@ -190,13 +206,15 @@ R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Tra
 
 R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
 
-C={"ProcessingJS","Processing","Matheus","Matrizes","Javascript","Programação","Alexandre","código","programa","Java"}
+C={"ProcessingJS","Processing","Matheus","Matrizes","Javascript","Programação","Alexandre","código","programa","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
 
-F1={}
+F1={Possui,Gosta}
 
-F2={}
+F2={Donos}
 
-v={}
+F3={Ajuda}
+
+v={X,Y,Z}
 
 OBS: 
 Constantes: 6
@@ -211,7 +229,38 @@ Funções de aridade 2 ou superior: 1
 # 4 Modelos
 OBS: Valores no universo de valores concretos: mínimo de 10
 
-## 4.1 Exemplos que satisfazem todas as Fórmulas
+## 4.1 Exemplos que satisfazem todas as Fórmulas (M 1)
+1. Universo de valores Concretos.
+A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
+
+2. Constante
+
+"ProcessingJS" = vc1
+
+"Processing" = vc2
+
+"Matheus" = vc3
+
+"Matrizes" = vc4
+
+"Javascript" = vc5
+
+"Programação" = vc6
+
+"Alexandre" = vc7
+
+"código" = vc8
+
+"programa" = vc9
+
+"Java" = vc10
+
+"Lauren McCarthy" = vc11
+
+"Casey Reas" = vc12
+
+"Ben Fry" = vc13
+
 
 ## 4.2 Exemplos que não satisfazem todas as Fórmulas
 
