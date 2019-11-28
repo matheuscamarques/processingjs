@@ -229,7 +229,7 @@ Funções de aridade 2 ou superior: 1
 # 4 Modelos
 OBS: Valores no universo de valores concretos: mínimo de 10
 
-## 4.1 Exemplos que satisfazem todas as Fórmulas (M 1)
+## 4.1 Exemplos que satisfazem todas as Fórmulas (<sup>M&#x2081;</sup>)
 1. Universo de valores Concretos.
 A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
 
@@ -308,8 +308,83 @@ Ciência<sup>M&#x2081;</sup> = { }
 
 
 
-## 4.2 Exemplos que não satisfazem todas as Fórmulas
+## 4.2 Exemplos que não satisfazem todas as Fórmulas (<sup>M&#x2082;</sup>)
 
+1. Universo de valores Concretos.
+A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
+
+2. Constante
+
+   "ProcessingJS"<sup>M&#x2081;</sup> = vc1
+
+   "Processing"<sup>M&#x2081;</sup> = vc2
+
+   "Matheus"<sup>M&#x2081;</sup> = vc3
+
+   "Matrizes"<sup>M&#x2081;</sup> = vc4
+
+   "Javascript"<sup>M&#x2081;</sup> = vc5
+
+   "Programação"<sup>M&#x2081;</sup> = vc6
+
+   "Alexandre"<sup>M&#x2081;</sup> = vc7
+
+   "código"<sup>M&#x2081;</sup> = vc8
+
+   "programa"<sup>M&#x2081;</sup> = vc9
+
+   "Java"<sup>M&#x2081;</sup> = vc10
+
+   "Lauren McCarthy"<sup>M&#x2081;</sup> = vc11
+
+   "Casey Reas"<sup>M&#x2081;</sup> = vc12
+
+   "Ben Fry"<sup>M&#x2081;</sup> = vc13
+
+3. Funções
+
+   Possui<sup>M&#x2081;</sup>() =
+
+   Gosta<sup>M&#x2081;</sup>() =
+
+   Donos<sup>M&#x2081;</sup>() =
+
+   Ajuda<sup>M&#x2081;</sup>() =
+
+
+4. Predicados
+
+Biblioteca_grafica<sup>M&#x2081;</sup> = { }
+
+Projeto<sup>M&#x2081;</sup> = { }
+
+Desenvolvedor<sup>M&#x2081;</sup> = { }
+
+Musico<sup>M&#x2081;</sup> = { }
+
+Programador<sup>M&#x2081;</sup> = { }
+
+Estuda<sup>M&#x2081;</sup> = { }
+
+Trabalha<sup>M&#x2081;</sup> = { }
+
+Programa<sup>M&#x2081;</sup> = { }
+
+Logico<sup>M&#x2081;</sup> = { }
+
+Algoritmo<sup>M&#x2081;</sup> = { }
+
+Processamento<sup>M&#x2081;</sup> = { }
+
+Trabalhoso<sup>M&#x2081;</sup> = { }
+
+Shape<sup>M&#x2081;</sup> = { }
+
+Processing<sup>M&#x2081;</sup> = { }
+
+Aplicação<sup>M&#x2081;</sup> = { }
+
+Ciência<sup>M&#x2081;</sup> = { }
 
 
 
