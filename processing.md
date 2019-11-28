@@ -235,31 +235,33 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
 
 2. Constante
 
-"ProcessingJS" = vc1
+   "ProcessingJS" = vc1
 
-"Processing" = vc2
+   "Processing" = vc2
 
-"Matheus" = vc3
+   "Matheus" = vc3
 
-"Matrizes" = vc4
+   "Matrizes" = vc4
 
-"Javascript" = vc5
+   "Javascript" = vc5
 
-"Programação" = vc6
+   "Programação" = vc6
 
-"Alexandre" = vc7
+   "Alexandre" = vc7
 
-"código" = vc8
+   "código" = vc8
 
-"programa" = vc9
+   "programa" = vc9
 
-"Java" = vc10
+   "Java" = vc10
 
-"Lauren McCarthy" = vc11
+   "Lauren McCarthy" = vc11
 
-"Casey Reas" = vc12
+   "Casey Reas" = vc12
 
-"Ben Fry" = vc13
+   "Ben Fry" = vc13
+
+3. Funções
 
 
 ## 4.2 Exemplos que não satisfazem todas as Fórmulas
