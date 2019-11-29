@@ -383,9 +383,9 @@ Estuda<sup>M&#x2082;</sup> = {vc3}
 
 Trabalha<sup>M&#x2082;</sup> = {vc3}
 
-Programar<sup>M&#x2082;</sup> = {vc3}
+Programar<sup>M&#x2082;</sup> = {vc14}
 
-Programa<sup>M&#x2082;</sup> = {vc14}
+Programa<sup>M&#x2082;</sup> = {vc3}
 
 Logico<sup>M&#x2082;</sup> = {vc3}
 
@@ -401,7 +401,6 @@ Aplicação<sup>M&#x2082;</sup> = {vc1}
 
 Ciência<sup>M&#x2082;</sup> = {vc2}
 
-&#x2082;</sup> = { }
 
 
 # 5. Conclusão
