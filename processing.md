@@ -32,7 +32,7 @@ ___________________________________
  Autores:
 0. [Matheus de Camargo Marques.](https://github.com/matheuscamarques)
 1. [Alexandre Magno Stukoski.](https://github.com/Alex-Strukoski)
-2. [Joãop Yutaka Kato de Oliveira.](https://gist.github.com/noobforzod)
+2. [João Yutaka Kato de Oliveira.](https://gist.github.com/noobforzod)
 
 
 
@@ -238,7 +238,7 @@ OBS: Valores no universo de valores concretos: mínimo de 10
 
 ## 4.1 Exemplos que satisfazem todas as Fórmulas (<sup>M&#x2081;</sup>)
 1. Universo de valores Concretos.
-A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
+A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
 2. Constante
 
@@ -283,7 +283,7 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
 
 4. Predicados
 
-Conceito<sup>M&#x2082;</sup> = {vc4,vc5}
+Conceito<sup>M&#x2081;</sup> = {vc4,vc5}
 
 Biblioteca_grafica<sup>M&#x2081;</sup> = {vc1}
 
@@ -322,7 +322,7 @@ Ciência<sup>M&#x2081;</sup> = {vc2}
 ## 4.2 Exemplos que não satisfazem todas as Fórmulas (<sup>M&#x2082;</sup>)
 
 1. Universo de valores Concretos.
-A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
+A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
 2. Constante
 
@@ -351,51 +351,57 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
    "Casey Reas"<sup>M&#x2082;</sup> = vc12
 
    "Ben Fry"<sup>M&#x2082;</sup> = vc13
+   
+   "AutoCAD"<sup>M&#x2082;</sup> = vc14
 
 3. Funções
 
-   Possui<sup>M&#x2082;</sup>() =
+   Possui<sup>M&#x2082;</sup>(vc5) = vc2
 
-   Gosta<sup>M&#x2082;</sup>() =
+   Gosta<sup>M&#x2082;</sup>(vc7) = vc2      
 
-   Donos<sup>M&#x2082;</sup>() =
+   Donos<sup>M&#x2082;</sup>(vc12,vc13) = vc2
 
-   Ajuda<sup>M&#x2082;</sup>() =
+   Ajuda<sup>M&#x2082;</sup>(...) 
 
 
 4. Predicados
 
-Biblioteca_grafica<sup>M&#x2082;</sup> = { }
+Conceito<sup>M&#x2082;</sup> = {vc4,vc5}
 
-Projeto<sup>M&#x2082;</sup> = { }
+Biblioteca_grafica<sup>M&#x2082;</sup> = {vc1}
 
-Desenvolvedor<sup>M&#x2082;</sup> = { }
+Projeto<sup>M&#x2082;</sup> = {vc2}
 
-Musico<sup>M&#x2082;</sup> = { }
+Desenvolvedor<sup>M&#x2082;</sup> = {vc3}
 
-Programador<sup>M&#x2082;</sup> = { }
+Musico<sup>M&#x2082;</sup> = {vc7}
 
-Estuda<sup>M&#x2082;</sup> = { }
+Programador<sup>M&#x2082;</sup> = {vc3}
 
-Trabalha<sup>M&#x2082;</sup> = { }
+Estuda<sup>M&#x2082;</sup> = {vc3}
 
-Programa<sup>M&#x2082;</sup> = { }
+Trabalha<sup>M&#x2082;</sup> = {vc3}
 
-Logico<sup>M&#x2082;</sup> = { }
+Programar<sup>M&#x2082;</sup> = {vc3}
 
-Algoritmo<sup>M&#x2082;</sup> = { }
+Programa<sup>M&#x2082;</sup> = {vc14}
 
-Processamento<sup>M&#x2082;</sup> = { }
+Logico<sup>M&#x2082;</sup> = {vc3}
 
-Trabalhoso<sup>M&#x2082;</sup> = { }
+Algoritmo<sup>M&#x2082;</sup> = {vc14}
 
-Shape<sup>M&#x2082;</sup> = { }
+Trabalhoso<sup>M&#x2082;</sup> = {vc14}
 
-Processing<sup>M&#x2082;</sup> = { }
+Shape<sup>M&#x2082;</sup> = {vc2}
 
-Aplicação<sup>M&#x2082;</sup> = { }
+Processing<sup>M&#x2082;</sup> = {vc2}
 
-Ciência<sup>M&#x2082;</sup> = { }
+Aplicação<sup>M&#x2082;</sup> = {vc1}
+
+Ciência<sup>M&#x2082;</sup> = {vc2}
+
+&#x2082;</sup> = { }
 
 
 # 5. Conclusão
