@@ -30,8 +30,9 @@ Aqui estão alguns sites que oferecem suporte ao Processing.js:
 
 ___________________________________
  Autores:
-1. [Matheus de Camargo Marques.](https://github.com/matheuscamarques)
-2. [Alexandre Magno Stukoski.](https://github.com/Alex-Strukoski)
+0. [Matheus de Camargo Marques.](https://github.com/matheuscamarques)
+1. [Alexandre Magno Stukoski.](https://github.com/Alex-Strukoski)
+2. [Joãop Yutaka Kato de Oliveira.](https://gist.github.com/noobforzod)
 
 
 
@@ -55,7 +56,13 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 | FRASE                | Matheus é um desenvolvedor.                
 | :------------------- | -------------------: |
 | Fórmula                | Desenvolvedor("Matheus")                
-| Definição de preidcados/Funções                  | Desenvolvedor(X): X é um desenvolvedor.  
+| Definição de preidcados/Funções                  | Desenvolvedor(X): X é um desenvolvedor. 
+
+| FRASE                | AutoCAD é um programa.                
+| :------------------- | -------------------: |
+| Fórmula                | Programa("AutoCAD")                
+| Definição de preidcados/Funções                  | Programa(X): X é um Programa.  
+
 
 
 
@@ -147,15 +154,15 @@ OBS: Disjunções: 2
 ##  2.6 Implicações
 OBS:Implicações: 2
 
-| FRASE                | Se Matheus programa então Alexandre revisa o código.                 
+| FRASE                | Se Matheus programar então Alexandre revisa o código.                 
 | :------------------- | -------------------: |
-| Fórmula                | Programa("Matheus") -> Revisa("Alexandre","código")               
+| Fórmula                | Programar("Matheus") -> Revisa("Alexandre","código")               
 | Definição de predicados/Funções   | Programa(X): X programa. Revisa(X,Y): X revisa o Y.
 
-| FRASE                | Se o programa foi escrito em Javascript então ele não funciona em Java.                 
+| FRASE                | Se o Software foi escrito em Javascript então ele não funciona com Java.                 
 | :------------------- | -------------------: |
-| Fórmula                |       Escrito("programa","Javascript") -> ¬Funciona("programa","Java")           
-| Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(x,y): x funciona em y.
+| Fórmula                |       Escrito("Software","Javascript") -> ¬Funciona("Software","Java")           
+| Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(x,y): x funciona com y.
 
 ##  2.7 Generalizações Universais
 OBS: Generalizações Universais: 3
@@ -173,10 +180,10 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Fórmula                | ∀x(Programa(x)→Algoritmo(x).                 
 | Definição de predicados/Funções  | Algoritmo(X): X é um algoritmo.
 
-| FRASE                |  Todo processamento é trabalhoso e lógico.                
+| FRASE                |  Todo programa é trabalhoso e lógico.                
 | :------------------- | -------------------: |
-| Fórmula                | ∀x(Processamento(x)→Trabalhoso(x)^Logico(x).                 
-| Definição de predicados/Funções  | Processamento(X): X é processamento. Trabalhoso(X): X é trabalhoso.
+| Fórmula                | ∀x(Programa(x)→Trabalhoso(x)^Logico(x).                 
+| Definição de predicados/Funções  | Programa(X): X é programa. Trabalhoso(X): X é trabalhoso.
 
 ##  2.8 Generalizações Existenciais
 OBS: Generalizações Existenciais: 3
@@ -190,23 +197,23 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Existe ao menos uma aplicação de Processing na Ciência.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Aplicação(X)) = Ciencia("Processing"))                
-| Definição de predicados/Funções | Aplicação(x): é uma aplicação. Ciencia(X): X na Ciência.
+| Fórmula                | ∃x(Aplicação("ProcessingJS")) = Ciencia("Processing"))                
+| Definição de predicados/Funções | Aplicação(x):X é uma aplicação. Ciencia(X):X na Ciência.
 
 | FRASE                | Existe ao menos alguém estudando Processing.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Alguem(x) = Estudando("Processing"))                
+| Fórmula                | ∃x(Alguem(x)) = Estudando("Processing")                
 | Definição de predicados/Funções | Alguem(x): x é um alguém. Estudando(x):  estudando x.
 
 
 # 3 Assinaturas
 Σ=[R1,R2,C,F1,F2,V]
 
-R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Trabalha, Programa, Logico, Algoritmo, Processamento, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
+R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Trabalha, Programar,Programa, Logico, Algoritmo, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
 
 R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
 
-C={"ProcessingJS","Processing","Matheus","Matrizes","Javascript","Programação","Alexandre","código","programa","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
+C={"ProcessingJS","Processing","Matheus","AutoCAD","Matrizes","Javascript","Programação","Alexandre","código","Software","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
 
 F1={Possui,Gosta}
 
@@ -260,51 +267,55 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13}
    "Casey Reas"<sup>M&#x2081;</sup> = vc12
 
    "Ben Fry"<sup>M&#x2081;</sup> = vc13
+   
+   "AutoCAD"<sup>M&#x2081;</sup> = vc14
 
 3. Funções
 
-   Possui<sup>M&#x2081;</sup>() =
+   Possui<sup>M&#x2081;</sup>(vc5) = vc2
 
-   Gosta<sup>M&#x2081;</sup>() =
+   Gosta<sup>M&#x2081;</sup>(vc7) = vc2      
 
-   Donos<sup>M&#x2081;</sup>() =
+   Donos<sup>M&#x2081;</sup>(vc12,vc13) = vc2
 
-   Ajuda<sup>M&#x2081;</sup>() =
+   Ajuda<sup>M&#x2081;</sup>(...) 
 
 
 4. Predicados
 
-Biblioteca_grafica<sup>M&#x2081;</sup> = { }
+Conceito<sup>M&#x2082;</sup> = {vc4,vc5}
 
-Projeto<sup>M&#x2081;</sup> = { }
+Biblioteca_grafica<sup>M&#x2081;</sup> = {vc1}
 
-Desenvolvedor<sup>M&#x2081;</sup> = { }
+Projeto<sup>M&#x2081;</sup> = {vc2}
 
-Musico<sup>M&#x2081;</sup> = { }
+Desenvolvedor<sup>M&#x2081;</sup> = {vc3}
 
-Programador<sup>M&#x2081;</sup> = { }
+Musico<sup>M&#x2081;</sup> = {vc7}
 
-Estuda<sup>M&#x2081;</sup> = { }
+Programador<sup>M&#x2081;</sup> = {vc3}
 
-Trabalha<sup>M&#x2081;</sup> = { }
+Estuda<sup>M&#x2081;</sup> = {vc3}
 
-Programa<sup>M&#x2081;</sup> = { }
+Trabalha<sup>M&#x2081;</sup> = {vc3}
 
-Logico<sup>M&#x2081;</sup> = { }
+Programar<sup>M&#x2081;</sup> = {vc3}
 
-Algoritmo<sup>M&#x2081;</sup> = { }
+Programa<sup>M&#x2081;</sup> = {vc14}
 
-Processamento<sup>M&#x2081;</sup> = { }
+Logico<sup>M&#x2081;</sup> = {vc3}
 
-Trabalhoso<sup>M&#x2081;</sup> = { }
+Algoritmo<sup>M&#x2081;</sup> = {vc14}
 
-Shape<sup>M&#x2081;</sup> = { }
+Trabalhoso<sup>M&#x2081;</sup> = {vc14}
 
-Processing<sup>M&#x2081;</sup> = { }
+Shape<sup>M&#x2081;</sup> = {vc2}
 
-Aplicação<sup>M&#x2081;</sup> = { }
+Processing<sup>M&#x2081;</sup> = {vc2}
 
-Ciência<sup>M&#x2081;</sup> = { }
+Aplicação<sup>M&#x2081;</sup> = {vc1}
+
+Ciência<sup>M&#x2081;</sup> = {vc2}
 
 
 
