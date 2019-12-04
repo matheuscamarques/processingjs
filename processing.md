@@ -195,13 +195,13 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Existe ao menos uma aplicação de Processing na Ciência.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Aplicação(X)) & Ciencia(X))                
+| Fórmula                | ∃x(Aplicação(X)) & Ciencia(X)) = "ProcessingJS"               
 | Definição de predicados/Funções | Aplicação(x):X é uma aplicação. Ciencia(X):X na Ciência.
 
-| FRASE                | Existe ao menos alguém estudando Processing.       
+| FRASE                | Existe ao menos um programador que estuda Processing.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Alguem(x)) & Estudando("Processing")                
-| Definição de predicados/Funções | Alguem(x): x é um alguém. Estudando(x):  estudando x.
+| Fórmula                | ∃x(Programador(x)) & Estuda(X))
+| Definição de predicados/Funções | Estuda(X): X estuda Processing.
 
 
 # 3 Assinaturas
@@ -209,7 +209,7 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 R1={Biblioteca_Grafica, Projeto, Musico, Programador, Estuda, Trabalha, Programar,Programa, Logico, Algoritmo, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
 
-R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
+R2={Conceito,Linguagem,Possui,Conhece,Revisa,Escrito,Funciona}
 
 R3={Desenvolvedor}
 
@@ -221,18 +221,9 @@ F2={Dono,Criador}
 
 V={x,y,z}
 
-OBS: 
-Constantes: 6
-Variáveis: 3
-Predicados de aridade 1: 3
-Predicados de aridade 2 ou superior: 2
-Funções de aridade 1: 2
-Funções de aridade 2 ou superior: 1
-
-
 
 # 4 Modelos
-OBS: Valores no universo de valores concretos: mínimo de 10
+
 
 ## 4.1 Exemplos que satisfazem todas as Fórmulas (<sup>M&#x2081;</sup>)
 1. Universo de valores Concretos.
@@ -282,13 +273,13 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
 4. Predicados
 
-Conceito<sup>M&#x2081;</sup> = {vc4,vc5}
+Conceito<sup>M&#x2081;</sup> = {vc5}
 
 Biblioteca_grafica<sup>M&#x2081;</sup> = {vc1}
 
 Projeto<sup>M&#x2081;</sup> = {vc2}
 
-Desenvolvedor<sup>M&#x2081;</sup> = {vc3}
+Desenvolvedor<sup>M&#x2081;</sup> = {(vc11,vc13)}
 
 Musico<sup>M&#x2081;</sup> = {vc7}
 
@@ -314,11 +305,7 @@ Processing<sup>M&#x2081;</sup> = {vc2}
 
 Aplicação<sup>M&#x2081;</sup> = {vc1}
 
-Ciência<sup>M&#x2081;</sup> = {vc2}
-
-Aprendeu<sup>M&#x2081;</sup> = {vc7,vc2}
-
-
+Ciência<sup>M&#x2081;</sup> = {vc1}
 
 
 ## 4.2 Exemplos que não satisfazem todas as Fórmulas (<sup>M&#x2082;</sup>)
@@ -358,18 +345,17 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
 3. Funções
 
-   Possui<sup>M&#x2082;</sup>(vc5) = vc2
+   Possui<sup>M&#x2082;</sup>(vc5) = vc1   
 
-   Gosta<sup>M&#x2082;</sup>(vc7) = vc2      
+   Donos<sup>M&#x2082;</sup>(vc12,vc13) = vc3
 
-   Donos<sup>M&#x2082;</sup>(vc12,vc13) = vc2
+   Ajuda<sup>M&#x2082;</sup>(vc13) = vc3 
 
-   Ajuda<sup>M&#x2082;</sup>(...) 
-
-
+   Criador<sup>M&#x2081;</sup>(vc12,vc13) = vc1
+  
 4. Predicados
 
-Conceito<sup>M&#x2082;</sup> = {vc4,vc5}
+Conceito<sup>M&#x2082;</sup> = {(vc4,vc5)}
 
 Biblioteca_grafica<sup>M&#x2082;</sup> = {vc1}
 
@@ -402,8 +388,6 @@ Processing<sup>M&#x2082;</sup> = {vc2}
 Aplicação<sup>M&#x2082;</sup> = {vc1}
 
 Ciência<sup>M&#x2082;</sup> = {vc2}
-
-
 
 # 5. Conclusão
 
