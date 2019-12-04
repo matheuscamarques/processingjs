@@ -47,7 +47,7 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 
 | FRASE                | ProcessingJS é uma bliblioteca gráfica                
 | :------------------- | -------------------: |
-| Fórmula                | Biblioteca-Grafica("ProcessingJS")                
+| Fórmula                | Biblioteca_Grafica("ProcessingJS")                
 | Definição de preidcados/Funções                  | Biblioteca_Grafica(X): X é uma Biblioteca gráfica.  
 
 | FRASE                | Processing é um projeto.              
@@ -55,10 +55,6 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 | Fórmula                | Projeto("Processing")                
 | Definição de preidcados/Funções                  | Projeto(X): X é um projeto.  
 
-| FRASE                | Matheus é um desenvolvedor.                
-| :------------------- | -------------------: |
-| Fórmula                | Desenvolvedor("Matheus")                
-| Definição de preidcados/Funções                  | Desenvolvedor(X): X é um desenvolvedor. 
 
 | FRASE                | AutoCAD é um programa.                
 | :------------------- | -------------------: |
@@ -70,7 +66,13 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 
 
 ##  2.2 Relação entre Objetos
-OBS: Relações entre “objetos”: 3, cada uma com um predicado diferente. Os objetos devem incluir objetos do item anterior e novos objetos.
+
+
+| FRASE                | Lauren McCarthy,Casey Reas são desenvolvedores em Processing.                
+| :------------------- | -------------------: |
+| Fórmula                | Desenvolvedor("Lauren McCarthy","Casey Reas","Processing")                
+| Definição de preidcados/Funções                  | Desenvolvedor(X,Y,Z): X & Y são desenvolvedores em Z. 
+
 
 | FRASE                | Matrizes é um conceito em Javascript                 
 | :------------------- | -------------------: |
@@ -78,12 +80,10 @@ OBS: Relações entre “objetos”: 3, cada uma com um predicado diferente. Os 
 | Definição de predicados/Funções                  | Conceito(X,Y): X é um conceito em Y.      
     
 
-
 | FRASE                | Javascript é uma linguagem de Programação                 
 | :------------------- | -------------------: |
 | Fórmula                | Linguagem("Processing,Programação")                
 | Definição de predicados/Funções                  | Linguagem(X,Y): X é uma linguagem de Y.     
-
 
 
 | FRASE                | Javascript possui Processing              
@@ -91,21 +91,17 @@ OBS: Relações entre “objetos”: 3, cada uma com um predicado diferente. Os 
 | Fórmula                | Possui("Javascript") = Processing               
 | Definição de predicados/Funções                  | Possui(X): retorna quem possui x   
 
-| FRASE                | Alexandre gosta de Processing              
-| :------------------- | -------------------: |
-| Fórmula                | Gosta("Alexandre") = Processing               
-| Definição de predicados/Funções                  | Gosta(X): retorna quem X gosta   
-
 
 | FRASE                | Casey Reas e Ben Fry donos do Projeto Processing              
 | :------------------- | -------------------: |
-| Fórmula                | Donos("Casey Reas","Benjamin Fry") = Projeto Processing             
-| Definição de predicados/Funções                  | Donos(X,Y):retorna projeto que X e Y são donos.  
+| Fórmula                | Dono("Casey Reas","Benjamin Fry") = "Projeto Processing"            
+| Definição de predicados/Funções                  | Dono(X,Y):retorna projeto que X e Y são donos.  
 
-| FRASE                | Lauren McCarthy ajuda Casey Reas e Ben Fry.             
+
+| FRASE                | Lauren McCarthy ajuda Ben Fry.             
 | :------------------- | -------------------: |
-| Fórmula                | Ajuda("Lauren McCarthy","Casey Reas","Ben Fry")          
-| Definição de predicados/Funções                  | Ajuda(X,Y,Z): X ajuda Y e Z  
+| Fórmula                | Ajuda("Lauren McCarthy","Ben Fry")          
+| Definição de predicados/Funções                  | Ajuda(X,Y):retorna X que ajuda Y.  
     
 
 
@@ -117,7 +113,7 @@ OBS: Negações: 2
 
 | FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬Conceito("Matrizes,Javascript")                
+| Fórmula                | ¬Conceito("Javascript")                
 | Definição de predicados/Funções                  |    
 
 | FRASE                | Alexandre não é um desenvolvedor.                 
@@ -128,15 +124,15 @@ OBS: Negações: 2
 ##  2.4 Conjunções
 OBS: Conjunções: 2
 
-| FRASE                | Matheus é um programador e conhece Alexandre                
+| FRASE                | Matheus é um programador e conhece Alexandre.                
 | :------------------- | -------------------: |
 | Fórmula                | Programador("Matheus") ^ Conhece("Matheus,Alexandre")                
 | Definição de predicados/Funções  | Conhece(X,Y): X conhece Y.
 
-| FRASE                | Alexandre aprendeu C e Alexandre aprendeu Javascript               
+| FRASE                | Alexandre aprendeu Processing e aprendeu Javascript.               
 | :------------------- | -------------------: |
-| Fórmula                | Aprendeu("Alexandre","X") ^ Aprendeu("Alexandre","Javascript")                
-| Definição de predicados/Funções  |Aprendeu(X,Y): x aprendeu Y.
+| Fórmula                | Aprendeu("Alexandre","Processing") ^ Aprendeu("Alexandre","Javascript")                
+| Definição de predicados/Funções  |Aprendeu(X,Y): X aprendeu Y.
 
 
 ##  2.5 Disjunções
@@ -209,21 +205,21 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 
 # 3 Assinaturas
-Σ=[R1,R2,C,F1,F2,V]
+Σ=[R1,R2,R3,C,F1,F2,V]
 
-R1={Biblioteca_grafica, Projeto, Desenvolvedor, Musico, Programador, Estuda, Trabalha, Programar,Programa, Logico, Algoritmo, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
+R1={Biblioteca_Grafica, Projeto, Musico, Programador, Estuda, Trabalha, Programar,Programa, Logico, Algoritmo, Trabalhoso, Shape, Processing, Aplicação, Ciência} 
 
 R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
 
+R3={Desenvolvedor}
+
 C={"ProcessingJS","Processing","Matheus","AutoCAD","Matrizes","Javascript","Programação","Alexandre","código","Software","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
 
-F1={Possui,Gosta}
+F1={Possui}
 
-F2={Donos}
+F2={Dono, Ajuda}
 
-F3={Ajuda}
-
-v={X,Y,Z}
+V={x,y,z}
 
 OBS: 
 Constantes: 6
@@ -242,7 +238,7 @@ OBS: Valores no universo de valores concretos: mínimo de 10
 1. Universo de valores Concretos.
 A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
-2. Constante
+2. Constantes
 
    "ProcessingJS"<sup>M&#x2081;</sup> = vc1
 
@@ -274,13 +270,11 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
 3. Funções
 
-   Possui<sup>M&#x2081;</sup>(vc5) = vc2
+   Possui<sup>M&#x2081;</sup>(vc5) = vc2 
 
-   Gosta<sup>M&#x2081;</sup>(vc7) = vc2      
+   Dono<sup>M&#x2081;</sup>(vc12,vc13) = vc2
 
-   Donos<sup>M&#x2081;</sup>(vc12,vc13) = vc2
-
-   Ajuda<sup>M&#x2081;</sup>(...) 
+   Ajuda<sup>M&#x2081;</sup>(vc11,vc13) = vc11
 
 
 4. Predicados
