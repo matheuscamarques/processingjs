@@ -118,7 +118,7 @@ OBS: Negações: 2
 
 | FRASE                | Alexandre não é um desenvolvedor.                 
 | :------------------- | -------------------: |
-| Fórmula                | ¬desenvolvedor("Alexandre")                
+| Fórmula                | ¬Desenvolvedor("Alexandre")                
 | Definição de predicados/Funções                  |    
 
 ##  2.4 Conjunções
@@ -132,7 +132,7 @@ OBS: Conjunções: 2
 | FRASE                | Casey Reas e Ben Fry são os criadores do Processing e donos do Projeto Processing.               
 | :------------------- | -------------------: |
 | Fórmula                | Criador("Casey Reas","Ben Fry") = "Processing" ^ Dono("Casey Reas","Ben Fry") = "Projeto Processing"                
-| Definição de predicados/Funções  |Criador(X,Y): X e Y são criadores do Processing.
+| Definição de predicados/Funções  |Criador(X,Y):retorna o que X e Y são criadores.
 
 
 ##  2.5 Disjunções
@@ -157,10 +157,10 @@ OBS:Implicações: 2
 | Fórmula                | Programar("Matheus") -> Revisa("Alexandre","código")               
 | Definição de predicados/Funções   | Programa(X): X programa. Revisa(X,Y): X revisa o Y.
 
-| FRASE                | Se o Software foi escrito em Javascript então ele não funciona com Java.                 
+| FRASE                | Se o AutoCAD foi escrito em Javascript então ele não funciona com Java.                 
 | :------------------- | -------------------: |
-| Fórmula                |       Escrito("Software","Javascript") -> ¬Funciona("Software","Java")           
-| Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(x,y): x funciona com y.
+| Fórmula                |       Escrito("AutoCAD","Javascript") -> ¬Funciona("Programa","Java")           
+| Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(X,Y): X funciona com Y.
 
 ##  2.7 Generalizações Universais
 OBS: Generalizações Universais: 3
@@ -190,17 +190,17 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Existe ao menos um Shape em Processing.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Shape(x) = Processing(x))                
+| Fórmula                | ∃x(Shape(x) & Processing(x))                
 | Definição de predicados/Funções | Shape(x): X é um Shape. Processing(x): É processing 
 
 | FRASE                | Existe ao menos uma aplicação de Processing na Ciência.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Aplicação("ProcessingJS")) = Ciencia("Processing"))                
+| Fórmula                | ∃x(Aplicação(X)) & Ciencia(X))                
 | Definição de predicados/Funções | Aplicação(x):X é uma aplicação. Ciencia(X):X na Ciência.
 
 | FRASE                | Existe ao menos alguém estudando Processing.       
 | :------------------- | -------------------: |
-| Fórmula                | ∃x(Alguem(x)) = Estudando("Processing")                
+| Fórmula                | ∃x(Alguem(x)) & Estudando("Processing")                
 | Definição de predicados/Funções | Alguem(x): x é um alguém. Estudando(x):  estudando x.
 
 
@@ -213,11 +213,11 @@ R2={Conceito,Linguagem,Possui,Conhece,Aprendeu,Revisa,Escrito,Funciona}
 
 R3={Desenvolvedor}
 
-C={"ProcessingJS","Processing","Matheus","AutoCAD","Matrizes","Javascript","Programação","Alexandre","código","Software","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
+C={"ProcessingJS","Processing","Matheus","AutoCAD","Matrizes","Javascript","Programação","Alexandre","código","Java","Lauren McCarthy","Casey Reas","Ben Fry"}
 
-F1={Possui}
+F1={Possui,Ajuda}
 
-F2={Dono, Ajuda}
+F2={Dono,Criador}
 
 V={x,y,z}
 
@@ -274,7 +274,10 @@ A = {vc1,vc2,vc3,vc4,vc5,vc6,vc7,vc8,vc9,vc10,vc11,vc12,vc13,vc14}
 
    Dono<sup>M&#x2081;</sup>(vc12,vc13) = vc2
 
-   Ajuda<sup>M&#x2081;</sup>(vc11,vc13) = vc11
+   Ajuda<sup>M&#x2081;</sup>(vc13) = vc11
+   
+   Criador<sup>M&#x2081;</sup>(vc12,vc13) = vc2
+   
 
 
 4. Predicados
