@@ -43,8 +43,6 @@ ___________________________________
 
 ##  2.1 Propriedades de "Objetos"
 
-OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado diferente
-
 | FRASE                | ProcessingJS é uma bliblioteca gráfica                
 | :------------------- | -------------------: |
 | Fórmula                | Biblioteca_Grafica("ProcessingJS")                
@@ -109,7 +107,7 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 
 
 ##  2.3 Negações
-OBS: Negações: 2
+
 
 | FRASE                | Structs não é um conceito em Javascript                 
 | :------------------- | -------------------: |
@@ -122,7 +120,7 @@ OBS: Negações: 2
 | Definição de predicados/Funções                  |    
 
 ##  2.4 Conjunções
-OBS: Conjunções: 2
+
 
 | FRASE                | Matheus é um programador e conhece Alexandre.                
 | :------------------- | -------------------: |
@@ -136,7 +134,7 @@ OBS: Conjunções: 2
 
 
 ##  2.5 Disjunções
-OBS: Disjunções: 2
+
 
 | FRASE                | Alexandre é musico ou programador.                 
 | :------------------- | -------------------: |
@@ -163,9 +161,6 @@ OBS:Implicações: 2
 | Definição de predicados/Funções | Escrito(x,y): o X foi escrito em Y. Funciona(X,Y): X funciona com Y.
 
 ##  2.7 Generalizações Universais
-OBS: Generalizações Universais: 3
-Ao menos duas fórmulas devem incluir ao menos 2 predicados com aridade superior a um.
-Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Todo programador é lógico.                 
 | :------------------- | -------------------: |
@@ -184,9 +179,6 @@ Ao menos duas fórmulas devem incluir ao menos uma função.
 | Definição de predicados/Funções  | Programa(X): X é programa. Trabalhoso(X): X é trabalhoso.
 
 ##  2.8 Generalizações Existenciais
-OBS: Generalizações Existenciais: 3
-Ao menos duas fórmulas devem incluir ao menos 2 predicados com aridade superior a um.
-Ao menos duas fórmulas devem incluir ao menos uma função.
 
 | FRASE                | Existe ao menos um Shape em Processing.       
 | :------------------- | -------------------: |
