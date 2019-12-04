@@ -100,8 +100,8 @@ OBS : Propriedades de “objetos”: 3, cada uma com um objeto e um predicado di
 
 | FRASE                | Lauren McCarthy ajuda Ben Fry.             
 | :------------------- | -------------------: |
-| Fórmula                | Ajuda("Lauren McCarthy","Ben Fry")          
-| Definição de predicados/Funções                  | Ajuda(X,Y):retorna X que ajuda Y.  
+| Fórmula                | Ajuda("Ben Fry") = "Lauren McCarthy"         
+| Definição de predicados/Funções                  | Ajuda(X):retorna quem ajuda X.  
     
 
 
@@ -129,10 +129,10 @@ OBS: Conjunções: 2
 | Fórmula                | Programador("Matheus") ^ Conhece("Matheus,Alexandre")                
 | Definição de predicados/Funções  | Conhece(X,Y): X conhece Y.
 
-| FRASE                | Alexandre aprendeu Processing e aprendeu Javascript.               
+| FRASE                | Casey Reas e Ben Fry são os criadores do Processing e donos do Projeto Processing.               
 | :------------------- | -------------------: |
-| Fórmula                | Aprendeu("Alexandre","Processing") ^ Aprendeu("Alexandre","Javascript")                
-| Definição de predicados/Funções  |Aprendeu(X,Y): X aprendeu Y.
+| Fórmula                | Criador("Casey Reas","Ben Fry") = "Processing" ^ Dono("Casey Reas","Ben Fry") = "Projeto Processing"                
+| Definição de predicados/Funções  |Criador(X,Y): X e Y são criadores do Processing.
 
 
 ##  2.5 Disjunções
@@ -312,6 +312,9 @@ Processing<sup>M&#x2081;</sup> = {vc2}
 Aplicação<sup>M&#x2081;</sup> = {vc1}
 
 Ciência<sup>M&#x2081;</sup> = {vc2}
+
+Aprendeu<sup>M&#x2081;</sup> = {vc7,vc2}
+
 
 
 
